@@ -1,0 +1,143 @@
+object FrameBottom: TFrameBottom
+  Size.Width = 380.000000000000000000
+  Size.Height = 50.000000000000000000
+  Size.PlatformDefault = False
+  object Layout3: TLayout
+    Align = Bottom
+    Margins.Left = 4.000000000000000000
+    Margins.Top = 4.000000000000000000
+    Margins.Right = 4.000000000000000000
+    Margins.Bottom = 4.000000000000000000
+    Position.X = 4.000000000000000000
+    Position.Y = -4.000000000000000000
+    Size.Width = 372.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object Layout4: TLayout
+      Align = Right
+      ClipChildren = True
+      Position.X = 322.000000000000000000
+      TabOrder = 0
+      object Path2: TPath
+        Align = Client
+        Data.Path = {
+          0800000000000000A4700941D7A384410100000052B852410000404101000000
+          A4700941B81EED4001000000000020410000C040010000000000804100004041
+          01000000000020410000904101000000A4700941D7A3844103000000A4700941
+          D7A38441}
+        Fill.Color = claCornflowerblue
+        Margins.Left = 14.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 14.000000000000000000
+        Margins.Bottom = 10.000000000000000000
+        Size.Width = 22.000000000000000000
+        Size.Height = 30.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object speRight: TSpeedButton
+        Align = Client
+        Size.Width = 50.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object Layout5: TLayout
+      Align = Left
+      ClipChildren = True
+      TabOrder = 1
+      object Path1: TPath
+        Align = Client
+        Data.Path = {
+          08000000000000005C8F7641D7A3844101000000AE472D410000404101000000
+          5C8F7641B81EED4001000000000060410000C040010000000000004100004041
+          010000000000604100009041010000005C8F7641D7A38441030000005C8F7641
+          D7A38441}
+        Fill.Color = claCornflowerblue
+        Margins.Left = 14.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 14.000000000000000000
+        Margins.Bottom = 10.000000000000000000
+        Size.Width = 22.000000000000000000
+        Size.Height = 30.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object speLeft: TSpeedButton
+        Align = Client
+        Size.Width = 50.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object Layout6: TLayout
+      Align = Client
+      Size.Width = 272.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      object HorzScrollBox1: THorzScrollBox
+        Align = Client
+        Size.Width = 272.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Viewport.Width = 272.000000000000000000
+        Viewport.Height = 50.000000000000000000
+        object imgFoto1: TImage
+          Tag = 1
+          MultiResBitmap = <
+            item
+            end>
+          Align = Left
+          Margins.Left = 4.000000000000000000
+          Margins.Top = 4.000000000000000000
+          Margins.Right = 4.000000000000000000
+          Margins.Bottom = 4.000000000000000000
+          Position.X = 4.000000000000000000
+          Position.Y = 4.000000000000000000
+          Size.Width = 42.000000000000000000
+          Size.Height = 42.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object imgFoto2: TImage
+          Tag = 2
+          MultiResBitmap.Height = 342
+          MultiResBitmap.Width = 211
+          MultiResBitmap = <
+            item
+            end>
+          Align = Left
+          Margins.Left = 4.000000000000000000
+          Margins.Top = 4.000000000000000000
+          Margins.Right = 4.000000000000000000
+          Margins.Bottom = 4.000000000000000000
+          Position.X = 54.000000000000000000
+          Position.Y = 4.000000000000000000
+          Size.Width = 42.000000000000000000
+          Size.Height = 42.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object imgFoto3: TImage
+          Tag = 3
+          MultiResBitmap.Height = 342
+          MultiResBitmap.Width = 211
+          MultiResBitmap = <
+            item
+            end>
+          Align = Left
+          Margins.Left = 4.000000000000000000
+          Margins.Top = 4.000000000000000000
+          Margins.Right = 4.000000000000000000
+          Margins.Bottom = 4.000000000000000000
+          Position.X = 104.000000000000000000
+          Position.Y = 4.000000000000000000
+          Size.Width = 42.000000000000000000
+          Size.Height = 42.000000000000000000
+          Size.PlatformDefault = False
+        end
+      end
+    end
+  end
+end
